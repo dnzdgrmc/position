@@ -1,0 +1,60 @@
+*{
+    margin: 0;  
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.nav{
+    display: flex;
+    background-color: blueviolet;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.nav-yazi{
+    color: white;
+    font-size: 30px;
+}
+
+.list-items{
+    display: flex;
+    list-style: none;
+    gap: 10px ;
+    
+    
+}
+.list-item a{
+    text-decoration: none;
+}
+.list-item :hover{
+    background-color: yellow;
+    transition: 0.5s;
+    border-radius: 50px;
+    
+}
+.section-bir{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.box{
+    display: flex;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+.box i{
+    font-size: 50px;
+   
+    
+}
+
+img{
+    height: 100px;
+    width: 100px;
+}
